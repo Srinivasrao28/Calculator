@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header  */
+
+header{
+    width: 100vw;
+    height: 7vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    width: 130px;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Main  */
+
+body{
+    background: url(images.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main{
+    width: 100vw;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    width: 390px;
+    height: 84vh;
+    background: white;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#display{
+    width: 380px;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    border-radius: 13px;
+}
+
+#display input{
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    font-size: 26px;
+    background: transparent;
+    color: white;
+}
+
+#btns{
+    width: 380px;
+    height: 60vh;
+    margin-top: 20px;
+    border-radius: 13px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+      
+}
+
+#btns button {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.addbtn{
+    background-color: orange;
+}
+
+.optrbtn{
+    background-color: rgb(252, 177, 38);
+}
+
+/* Footer  */
+
+footer{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+p{
+    color: aliceblue;
+    cursor: no-drop;
+}
